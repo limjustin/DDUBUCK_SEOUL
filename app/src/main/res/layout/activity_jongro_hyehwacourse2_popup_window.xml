@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    tools:context=".Jongro_hyehwa.Jongro_hyehwacourse2_popupWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/x_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/matjip_theme" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#686075"
+            android:text="배터지는 코스(종로편)"
+            android:textColor="#9FADF1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#5C4B7A"
+            android:text="오리지널 시카고피자-골목숲-올마이티 치즈버거"
+            android:textColor="#BEC9F3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:background="#3D4672"
+        android:gravity="center"
+        android:text="피자하면 대부분 이탈리아식 피자를 떠올린다 \n\n이번에는 치즈가 녹아내리는 \n\n시카고 스타일의 피자를 먹어보자	\n\n골목숲에서 잠시 휴식시간을 가져보자	\n\n수제버거집에서 치즈폭탄급 버거를 먹어보자
+
+"
+        android:textSize="10dp"
+        android:textColor="#EEE8FA" />
+
+
+</LinearLayout>

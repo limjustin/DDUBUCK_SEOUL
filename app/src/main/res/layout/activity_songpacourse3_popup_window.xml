@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    tools:context=".Songpa.Songpacourse3_popupWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/x_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/family_theme" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#686075"
+            android:text="옛날 시장길 지나다니며 산책하기"
+            android:textColor="#9FADF1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#5C4B7A"
+            android:text="신촌 뚜벅이거리-석촌호수-가락시장-문정 로데오거리"
+            android:textColor="#BEC9F3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:background="#3D4672"
+        android:gravity="center"
+        android:text="신촌 뚜벅이 거리에서 \n\n가도가도 질리지 않는 즐거운
+체험을 해보자\n\n
+
+석촌호수에서 가족과 함께 걸어 다니며 추억을 쌓아보자\n\n
+봄에 가면 벗꽃축제에서 펼쳐지는 예쁜 벚꽃나무들이\n\n 호수 한바퀴를
+감싼 모습을 볼 수 있다.\n\n
+
+가락시장에서 맛있는 군것질거리들을 즐겨보자\n\n
+
+로데오거리에서 오늘은 아이들을 위해 지갑을 열어보자
+"
+        android:textSize="10dp"
+        android:textColor="#EEE8FA" />
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="400dp"
+android:layout_height="500dp"
+android:padding="5dp"
+android:background="@color/colorPrimaryDark"
+android:layout_gravity="center"
+tools:context=".Jongro_hyehwa.Jongro_hyehwacourse1_popupWindow">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/x_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/date_theme" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#686075"
+        android:text="대학로 왔으면 연극 봐야지"
+        android:textColor="#9FADF1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#5C4B7A"
+        android:text="사춘기 메들리(연극)-학림다방"
+        android:textColor="#BEC9F3" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="100dp"/>
+
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="374dp"
+    android:layout_height="299dp"
+    android:layout_gravity="center"
+    android:background="#3D4672"
+    android:gravity="center"
+    android:text="대학로 하면 대학연극이다. \n\n인기 웹툰을 기반으로한 연극을\n\n 재미있게 즐겨보자\n\n	학림다방에서 은은한 향의 커피 한 잔 해보자
+
+"
+    android:textSize="10dp"
+    android:textColor="#EEE8FA" />
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    tools:context=".Yeongdeungpo.Yeongdeungpocourse1_popopWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/x_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/inyro_logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#686075"
+            android:text="개발자 소개"
+            android:textColor="#9FADF1"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:background="#3D4672"
+        android:gravity="center"
+        android:text="\n프로그래밍을 좋아하는\n컴퓨터학과 관련 전공 학생 4명이 모여 \n처음 만든 어플리케이션 [뚜벅서울]입니다.\n\n저희는 상명대 서울캠퍼스 소속의\n프로그래밍 동아리‘이니로’에서 처음 만났으며\n멘토링과 프로젝트 위주로 동아리 활동을 하고 있습니다."
+        android:textColor="#EEE8FA"
+        android:textSize="12dp" />
+
+
+</LinearLayout>

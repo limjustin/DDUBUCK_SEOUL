@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    tools:context=".DongdaemunSeongdong.Dongdaemunseongdongcourse1_popupWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/x_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/family_theme" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#686075"
+            android:text="동대문에서 조선왕조 엿보기"
+            android:textColor="#9FADF1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#5C4B7A"
+            android:text="세종대왕기념관-영휘원-더테이블"
+            android:textColor="#BEC9F3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:background="#3D4672"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:text="세종대왕님의 성덕과 위업을 기린 세종대왕기념관에 들러\n\n 한글은 만드신 세종대왕님을\n\n한 발자국 가까이 느껴보자!\n\n바로 옆의 영휘원에서 고종의 계비였던 \n\n순휘귀비 엄씨의 묘를 들러보자!\n\n 근처 맛집인 더테이블에서 훌륭한 이탈리아 음식을 맛보자!"
+        android:textColor="#EEE8FA" />
+
+
+</LinearLayout>
+
+
+

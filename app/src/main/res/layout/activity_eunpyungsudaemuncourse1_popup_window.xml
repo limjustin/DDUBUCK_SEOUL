@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    tools:context=".EnpyungSudaemun.Eunpyungsudaemuncourse1_popupWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/x_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/family_theme" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#686075"
+            android:text="서대문에서 역사 살펴보기"
+            android:textColor="#9FADF1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#5C4B7A"
+            android:text="서대문형무소-한옥집-카페떡마을"
+            android:textColor="#BEC9F3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:background="#3D4672"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:text="서대문 형무소에서 일제시대의 \n\n아픈 역사를 직접 목격해보자!\n\n 한옥집에서 유명한\n\n 밥도둑 묵은지를 먹어보자!"
+        android:textColor="#EEE8FA" />
+
+
+</LinearLayout>

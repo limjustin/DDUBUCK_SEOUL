@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    tools:context=".Yeongdeungpo.Yeongdeungpocourse1_popopWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/x_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/app_logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#686075"
+            android:text="앱 소개"
+            android:textColor="#9FADF1"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:background="#3D4672"
+        android:gravity="center"
+        android:text="기존의 여행 루트를 추천해주는 앱들은,\n자동차 혹은 대중교통을 통해서\n갈 수 원거리 위주의\n추천루트를 제시해줍니다.
+            \n우리 [뚜벅서울] 앱에서는 기존에는 없던,\n걸어 다니면서 투어를 하는\n“뚜벅이”들을 위한 앱입니다.
+            \n추천 코스에서는 2km 반경내의 걸어다니기 좋은\n추천루트를 지역별,테마별로 보여줍니다\n나만의 코스 만들기를 통해\n  본인 만의 코스 역시 만들어 볼 수 있습니다
+        "
+
+
+        android:textColor="#EEE8FA"
+        android:textSize="12dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="10"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/ddubuck_seoul"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="\n현재 시각을 기준으로\n"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="24시간 동안의 날씨를 표시합니다!!\n"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="오늘의 날씨는 어떨까요??\n"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="버튼을 눌러보세요!!\n"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/make_my_course_button"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Today's Weather"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#00BCD4"
+        android:textSize="20dp" />
+
+</LinearLayout>

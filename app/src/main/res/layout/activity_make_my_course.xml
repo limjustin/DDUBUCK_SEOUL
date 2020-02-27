@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MakeMyCourse"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ddubuck_seoul"
+            app:layout_constraintBottom_toTopOf="@+id/btn_move2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="Make My Course"
+            android:textColor="#A6CAE7"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_move2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/mymap1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="1번\n\n스크롤 맨 아래의\n[나만의 코스 만들러가기]\n\n버튼을 눌러\n구글 메인 지도를 킨다\n\n처음 코스를\n만들 때는\n우측하단의 [+]\n버튼을 누른다"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/mymap2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2번 \n\n검색창에 \n원하는 지역을 검색한 후,\n\n[+지도에 추가]\n를 눌러\n지도에 추가한다."
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/mymap3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="3번\n\n지도에 해당 지역이\n마커로 표시된다."
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/mymap4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="4번\n\n이후 지도에 해당지역이\n마커로 기록된 것을\n확인할 수 있다."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/mymap5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="5번\n\n[LEGEND]버튼을 통해\n내가 표시한 마커들을\n확인할 수 있다"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/mymap6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="6번\n\n[제목]항목을 선택하면\n지도의 제목과\n지도에 대한 설명도\n추가할 수 있다."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/mymap7"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="7번\n\n이렇게 만든 지도는\n온라인상에\n기록되어 언제든지\n확인할 수 있다."/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_move_my"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/make_my_course_button"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Make My Course"
+            android:textSize="16dp"></Button>
+
+
+    </LinearLayout>
+</ScrollView>

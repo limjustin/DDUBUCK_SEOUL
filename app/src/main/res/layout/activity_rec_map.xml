@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_picture"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="9"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:weightSum="7"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ddubuck_seoul"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:weightSum="5"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"></LinearLayout>
+                        <ToggleButton
+                            android:id="@+id/es_button"
+                            android:layout_weight="3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="@drawable/es_map"
+                            android:textOff=""
+                            android:textOn="" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ToggleButton
+                            android:id="@+id/j_button1"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="@drawable/j_map1"
+                            android:textOff=""
+                            android:textOn=""
+                            android:textSize="12sp" />
+
+                        <ToggleButton
+                            android:id="@+id/j_button2"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="@drawable/j_map2"
+                            android:textOff=""
+                            android:textOn="" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="8"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5"
+                            android:weightSum="5"
+                            android:orientation="horizontal">
+                            <ToggleButton
+                                android:id="@+id/ksnd_button"
+                                android:layout_weight="3"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginEnd="0dp"
+                                android:layout_marginRight="0dp"
+                                android:layout_marginBottom="0dp"
+                                android:background="@drawable/ksnd_map"
+                                android:textOff=""
+                                android:textOn="" />
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"></LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:weightSum="6">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <ToggleButton
+                            android:id="@+id/j_button"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/j_map"
+                            android:textOff=""
+                            android:textOn="" />
+
+                        <ToggleButton
+                            android:id="@+id/ds_button"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/ds_map"
+                            android:textOff=""
+                            android:textOn="" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:orientation="horizontal"></LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <ToggleButton
+                        android:id="@+id/m_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/m_map"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <ToggleButton
+                        android:id="@+id/y_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/y_map"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <ToggleButton
+                        android:id="@+id/kj_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/kj_map"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:weightSum="5"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <ToggleButton
+                        android:id="@+id/ky_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/ky_map"
+                        android:textOff=""
+                        android:textOn=""
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.054"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.722" />
+
+                    <ToggleButton
+                        android:id="@+id/yd_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/yd_map"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <ToggleButton
+                        android:id="@+id/sg_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/sg_map"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <ToggleButton
+                        android:id="@+id/kss_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ks_map"
+                        android:textOff=""
+                        android:textOn="" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                        <ToggleButton
+                            android:id="@+id/gg_button"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="@drawable/gg_map"
+                            android:textOff=""
+                            android:textOn="" />
+
+                        <ToggleButton
+                            android:id="@+id/kd_button"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="@drawable/kd_map"
+                            android:textOff=""
+                            android:textOn="" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"></LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-24dp"
+            android:background="@drawable/ddubuck_seoul"
+            app:layout_constraintBottom_toTopOf="@+id/btn_move2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/pick"
+            android:layout_width="19dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/pick"
+            app:layout_constraintBottom_toTopOf="@+id/btn_move1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.031"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.702" />
+
+        <TextView
+            android:id="@+id/yongsan_pic"
+            android:layout_width="155dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="33dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:scrollbarSize="4dp"
+            android:text="강동 송파 Pick"
+            android:textAppearance="@style/yongsan_pic"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_move1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.714" />
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="right|center_vertical"
+            android:text="#가족 #데이트\n #맛집 #자연"
+
+            android:textSize="12dp"
+            android:textAppearance="@style/tag"
+            app:layout_constraintBottom_toTopOf="@+id/btn_move1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.853" />
+
+        <Button
+            android:id="@+id/btn_move1"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="141dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/songpa_button1"
+            app:layout_constraintBottom_toTopOf="@+id/btn_move2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.614" />
+
+        <Button
+            android:id="@+id/btn_move2"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="387dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/songpa_button2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.035" />
+
+        <Button
+            android:id="@+id/btn_move3"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="630dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/songpa_button3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/background"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_move4"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="855dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/songpa_button4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/background"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/btn_move5"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="1080dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/songpa_button5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/background"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

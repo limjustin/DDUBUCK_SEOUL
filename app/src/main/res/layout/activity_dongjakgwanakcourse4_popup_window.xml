@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="400dp"
+android:layout_height="500dp"
+android:padding="5dp"
+android:background="@color/colorPrimaryDark"
+android:layout_gravity="center"
+tools:context=".DongjakGwanak.Dongjakgwanakcourse4_popupWindow">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/x_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/matjip_theme" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#686075"
+        android:text="배터지는 루트(사당편)
+"
+        android:textColor="#9FADF1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#5C4B7A"
+        android:text="스시로로-빌리엔젤-광안리-전주전집"
+        android:textColor="#BEC9F3" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="100dp"/>
+
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="374dp"
+    android:layout_height="299dp"
+    android:layout_gravity="center"
+    android:textSize="10dp"
+    android:background="#3D4672"
+    android:gravity="center"
+    android:text="스시로로에서 초밥을 먹고\n\n
+빌리엔젤에서 작품성 있는(?) 케잌들을 먹어보자\n\n
+
+연어와 육사시미가 유명한 광안리라는 식당에서 \n\n육회 한입! 연어 한입!\n\n
+
+이름에서 우러러 나오는 솔직함!\n\n
+맛있는 고기전을 먹어보자\n\n
+"
+    android:textColor="#EEE8FA" />
+
+
+</LinearLayout>
