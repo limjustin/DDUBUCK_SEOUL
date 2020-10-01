@@ -50,4 +50,14 @@
 
 ----------
 
-**5. 프로그램 실행 화면**
+**5. 앱 사용 설명서**
+
+![image](https://user-images.githubusercontent.com/55044278/94824569-2465c700-0440-11eb-9b76-5dd4f968daae.png)
+
+![image](https://user-images.githubusercontent.com/55044278/94824585-27f94e00-0440-11eb-9bad-b8630edf8457.png)
+
+![image](https://user-images.githubusercontent.com/55044278/94824609-2def2f00-0440-11eb-96ba-ddb32310c00b.png)
+
+![image](https://user-images.githubusercontent.com/55044278/94824621-3182b600-0440-11eb-9eb4-e28fd67747c6.png)
+
+![image](https://user-images.githubusercontent.com/55044278/94824634-347da680-0440-11eb-993a-db9a1341a6f7.png)
